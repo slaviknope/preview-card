@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+}
+
+* {
+    font-family: Mulish;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+
+}
+
+body {
+    width: 1120px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #001A49;
+    font: 800 30px Mulish;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    color: #001A49;
+    font: 700 16px Mulish;
+
+}
+
+header nav p:not(:last-child) {
+    margin-right: 37px;
+}
+
+header .btw {
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    width: 147px;
+    color: #FFF;
+    font: 700 16px Mulish;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .btw:hover {
+    background: linear-gradient(44deg, #6c90b1 0%, #3668ab 100%);
+}
+
+.preview-landing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview-landing .left {
+    width: 580px;
+}
+
+.preview-landing .left h1 {
+    color: #001A49;
+    font: 800 60px Mulish;
+}
+
+.preview-landing .left p {
+    color: #4F596A;
+    font: 400 20px Mulish;
+}
+
+.preview-landing .left .btn {
+    border-radius: 33px;
+    width: 180px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    padding: 17px 0;
+    text-align: center;
+    color: #FFF;
+    font: 700 20px Mulish;
+}
+
+.preview-landing .rightvideo {
+    background-image: url(./acces/Group\ 7.png);
+    width: 590px;
+    height: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.reviews {
+    position: relative;
+}
+.reviews .table {
+    display: flex;
+    border-radius: 21px;
+    border: 1px solid #E7EAEB;
+    background: #FFF;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    z-index: 1;
+}
+.reviews .table .item {
+    width: 373px;
+    text-align: center;
+    padding: 50px 0;
+
+}
+.reviews .item h2 {
+    color: #001A49;
+    font: 800 40px Mulish;
+}
+
+.reviews .item p {
+    color: #4F596A;
+    font: 400 16px Mulish;
+}
+.reviews .oval {
+    background-image: url(./acces/Side\ Shape.png);
+    background-repeat: no-repeat;
+    width: 288px;
+height: 288px;
+background-size: contain;
+position: absolute;
+z-index: 2;
+top: 0;
+left: 0;
+}
